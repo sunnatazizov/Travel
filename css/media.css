@@ -1,0 +1,125 @@
+/* Планшетов X */
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .promo {
+        height: 575px;
+    }
+
+    .promo h1 {
+        font-size: 60px;
+    }
+
+    .tours_box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about_box {
+        padding: 31px 45px 75px 55px;
+    }
+}
+
+/* Телефоны Х */
+@media (max-width: 768px) {
+    .burger_menu {
+        display: flex;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .excursion_box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tours_box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about_box p {
+        font-size: 13px;
+    }
+
+    .about_box {
+        max-width: 542px;
+    }
+
+    .gallery_box_1 {
+        display: none;
+    }
+    
+    .gallery_box_2 {
+        display: grid;
+    }
+    
+    .box_2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 6 ;
+    }
+    .box_3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    } 
+    .box_4 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .box_8 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 6;
+    }
+
+    .about_box {
+        padding: 21px 25px 58px 28px;
+    }
+}
+
+/* Телефоны Y */
+@media (max-width: 576px) {
+    .promo h1 {
+        font-size: 36px;
+    }
+
+    .gallery_box_2 {
+        display: none;
+    }
+
+    .gallery_box_3 {
+        display: grid;
+    }
+
+    .box_2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 6 ;
+    }
+    .box_3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    } 
+    
+    .box_8 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 6;
+    }
+
+}
